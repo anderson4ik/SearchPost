@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Posts Project</title>
+    <link rel="shortcut icon" type="image/png" href="img//icon.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <a class="navbar-brand text-white" href="#">Posts Project</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main style="min-height: 900px;">
+        <div class="container mt-5">
+            <section id="top-headlines">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4">Posts Project By: Andrei Lapicov</h1>
+                        <p>Project description text demo line.</p>
+                    </div>
+                </div>
+                <div class="row border-bottom">
+                    <div class="col-8 text-center m-auto pb-3">
+                        <div class="alert alert-info" role="alert">
+                            Technologies: html,css,bootstrap 4,font awesome,JavaScript (vanilla,es6+,oop)
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="search-bar">
+                <div class="row mt-5">
+                    <div class="col-12 mb-5">
+                        <div class="input-group">
+                            <input id="search-posts-field" type="search" class="form-control form-control-lg"
+                                placeholder="&#xf002; Search Post" style="font-family:Arial, FontAwesome">
+                            <div class="input-group-append">
+                                <select id="category-picker" class="from-control p-2">
+                                    <option value="">All</option>
+                                    <option value="Dogs">Dogs</option>
+                                    <option value="Cats">Cats</option>
+                                    <option value="Parrots">Parrots</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="posts-content">
+                <div class="row" id="posts-row">
+                </div>
+            </section>
+    </main>
+
+    <footer style="height:60px;" class="bg-info mt-5">
+        <p style="line-height:60px;" class="text-center text-white mb-0">Andrei Lapicov © 2020</p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="/js/app.js" type="module"></script>
+</body>
+
+</html>
